@@ -66,21 +66,21 @@ This project presents a **comprehensive data analysis** of the COVID-19 pandemic
 
 ## 🧪 Analysis Components
 
-### 1. 🦠 Covid-19 Analysis
+### 1. Covid-19 Analysis
 **Main comprehensive analysis covering:**
 - Global infection trends
 - Country-wise case distribution
 - Death and recovery rate analysis
 - Time-series visualization of pandemic progression
 
-### 2. 🌍 Covid-19 Impact Analysis
+### 2. Covid-19 Impact Analysis
 **Focused on pandemic impact:**
 - Regional impact assessment
 - Comparative country analysis
 - Economic and social implications through data
 - Severity metrics and trends
 
-### 3. 💉 Covid-19 Vaccine Analysis
+### 3. Covid-19 Vaccine Analysis
 **Vaccination progress tracking:**
 - Global vaccination rates
 - Country-wise vaccine distribution
@@ -160,24 +160,6 @@ jupyter notebook
    - Interact with visualizations
    - Modify parameters to explore different aspects
 
-### Analysis Workflow
-
-```python
-import pandas as pd
-import plotly.express as px
-
-# Load the data
-df = pd.read_csv('transformed_data.csv')
-
-# Quick overview
-print(df.info())
-print(df.describe())
-
-# Create visualization
-fig = px.line(df, x='date', y='cases', color='country')
-fig.show()
-```
-
 ---
 
 ## 📁 Project Structure
@@ -187,12 +169,10 @@ Covid-19-Analysis/
 ├── Covid 19 Analysis.ipynb           # Main comprehensive analysis
 ├── Covid 19 Impact Analysis.ipynb    # Pandemic impact analysis
 ├── Covid 19 Vaccine Analysis.ipynb   # Vaccination tracking analysis
-├── Covid 19 Analysis.pdf             # PDF export of main analysis
 ├── raw_data.csv                      # Raw COVID-19 data
 ├── transformed_data.csv              # Processed data
 ├── country_vaccinations.csv          # Vaccination statistics
-├── requirements.txt                  # Python dependencies
-└── README.md                         # Project documentation
+└── requirements.txt                  # Python dependencies
 ```
 
 ---
@@ -262,13 +242,3 @@ Contributions are welcome! Here's how you can help:
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/Ch-Ayushman-Patro)
 
 For questions, suggestions, or collaboration opportunities, feel free to reach out!
-
----
-
-<div align="center">
-
-**Made with 📊 and 🐍 Python**
-
-*Stay safe, stay informed* 🦠💉
-
-</div>
